@@ -1,0 +1,10 @@
+blocked-commands:
+  - /plugins
+  - /pl
+  - /bukkit:
+  - /minecraft:
+  - /version
+  - /ver
+  - /help
+  - /?
+  - /me
