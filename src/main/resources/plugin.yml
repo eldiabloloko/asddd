@@ -1,0 +1,15 @@
+name: CommandBlocker
+version: 1.1
+main: me.keitoc.commandblocker.CommandBlocker
+api-version: 1.20
+description: Plugin para bloquear comandos y filtrar tab-complete.
+author: KeitoC
+commands:
+  commandblocker:
+    description: Recarga el plugin CommandBlocker.
+    usage: /<command> reload
+    permission: commandblocker.reload
+permissions:
+  commandblocker.reload:
+    description: Permite recargar la configuración del plugin.
+    default: op
